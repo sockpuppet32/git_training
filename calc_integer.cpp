@@ -18,7 +18,12 @@ int subtraction(int a,int b)
 int division(int a,int b)
 {
     int c;
-    c = a / b;
+    if(b == 0)
+    {
+        return 0;
+    }else{
+        c = a / b;
+    }
     return c;
 }
 
