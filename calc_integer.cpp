@@ -2,7 +2,7 @@
 
 using namespace std
 
-int ad(int a,int b)
+int add(int a,int b)
 {
     int c;
     return c
