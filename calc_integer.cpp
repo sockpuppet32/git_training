@@ -17,7 +17,7 @@ int subtraction(int a,int b)
 
 int division(int a,int b)
 {
-    int c;
+    double c;
     if(b == 0)
     {
         return 0;
