@@ -34,6 +34,17 @@ int division(int a,int b)
     return c;
 }
 
+int abs(int a)
+{
+   if(a >0)
+   {
+     return a;
+   }
+   else
+   {
+     return -a;
+   }
+}
 int main()
 {
     return 0;
